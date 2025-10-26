@@ -1,0 +1,232 @@
+
+@media all {
+  
+  .cc42tz1 {
+    display: inline-flex
+  }
+  .c1fqs2kx {
+    row-gap: 6px
+  }
+  .c76pdg3 {
+    column-gap: 6px
+  }
+  .c1w3gxbd {
+    align-items: center
+  }
+  .c1x2nfm5 {
+    justify-content: center
+  }
+  .c3rerf6 {
+    position: fixed
+  }
+  .c1310xgk {
+    z-index: 1000
+  }
+  .c1asucjw {
+    padding-top: 6px
+  }
+  .c2f18he {
+    padding-right: 10px
+  }
+  .ck22ktf {
+    padding-bottom: 6px
+  }
+  .ctwpizd {
+    padding-left: 10px
+  }
+  .c10gg01r {
+    right: 1px
+  }
+  .cirj543 {
+    bottom: 1px
+  }
+  .c1q35y1w {
+    color: rgba(251, 252, 253, 1)
+  }
+  .c1qe00ly {
+    font-family: emoji, sans-serif
+  }
+  .csevh64 {
+    font-size: 16px
+  }
+  .c1b56ixi {
+    font-weight: 500
+  }
+  .c127imsv {
+    line-height: 1.2
+  }
+  .c6wrcvp {
+    border-top-left-radius: 9px
+  }
+  .cf6fb73 {
+    border-top-right-radius: 9px
+  }
+  .cs1x6nz {
+    border-bottom-right-radius: 9px
+  }
+  .c1x716p4 {
+    border-bottom-left-radius: 9px
+  }
+  .c1wtnvb5 {
+    text-decoration-line: none
+  }
+  .c19uhz2d {
+    border: 1px solid transparent
+  }
+  .c606rgr {
+    white-space: nowrap
+  }
+  .ci2bnlx {
+    display: flex
+  }
+  .c1axtb1i {
+    width: var(--size-6)
+  }
+  .ct17jza {
+    border-top-color: black
+  }
+  .c1fq7rnz {
+    border-right-color: black
+  }
+  .c1hr6wm5 {
+    border-bottom-color: black
+  }
+  .c10vexua {
+    border-left-color: black
+  }
+  .c1nfjjn {
+    color: black
+  }
+  .c2ljy2p {
+    font-size: 12px
+  }
+  .c19ty1vk {
+    letter-spacing: 0.5px
+  }
+  .cwcs45o {
+    margin-right: 0px
+  }
+  .c11g6ikc {
+    margin-top: var(--font-size-fluid-2)
+  }
+  .chcv05 {
+    margin-bottom: var(--size-3)
+  }
+  .c1nngskv {
+    flex-direction: column
+  }
+  .c12lgn0z {
+    column-gap: var(--gap-xs)
+  }
+  .c1qpctlt {
+    row-gap: var(--gap-xs)
+  }
+  .c341gyy {
+    border-top-left-radius: var(--radius-3)
+  }
+  .c1go5bsf {
+    border-top-right-radius: var(--radius-3)
+  }
+  .cvnwuxi {
+    border-bottom-left-radius: var(--radius-3)
+  }
+  .c1gg3wjy {
+    border-bottom-right-radius: var(--radius-3)
+  }
+  .cyr0vbi {
+    justify-content: start
+  }
+  .cuvzrc {
+    background-color: lavender
+  }
+  .cukb7z3 {
+    margin-left: 0px
+  }
+  .csdnt2n {
+    border: var(--border-size-1) solid transparent
+  }
+  .c1aa8hwe {
+    padding: var(--size-3)
+  }
+  .c1088tlr {
+    margin-top: var(--size-1)
+  }
+  .co3wmmd {
+    margin-bottom: var(--size-1)
+  }
+  .c1mhugz2 {
+    font-family: Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif
+  }
+  .c16wl4ek {
+    font-weight: 800
+  }
+  .ck5n32e {
+    max-width: var(--size-content-3)
+  }
+  .c13s0pqj {
+    font-size: 20px
+  }
+  .c1hqrv9o {
+    text-align: center
+  }
+  .cimknqo {
+    margin-top: 0em
+  }
+  .c10so75e {
+    color: dimgrey
+  }
+  .c2i7lsk {
+    max-width: none
+  }
+  .cyb20mm {
+    white-space: normal
+  }
+  .c9b3i8f {
+    text-wrap: pretty
+  }
+  .c1kzqsjt {
+    display: block
+  }
+  .c1d10wc5 {
+    color: gray
+  }
+  .c7skfvf {
+    width: var(--size-content-3)
+  }
+  .c19ui0j {
+    border: var(--border-size-2) solid lightblue
+  }
+}
+@media all and (max-width: 991px) {
+  .c1wyw39v {
+    font-size: 20px
+  }
+  .caued8c {
+    font-size: 14px
+  }
+}
+@media all and (max-width: 767px) {
+  .c1ytlx9z {
+    margin-top: var(--size-relative-14)
+  }
+  .c1r018x4 {
+    font-size: 16px
+  }
+  .cjrfx4k {
+    font-size: 12px
+  }
+}
+@media all and (max-width: 479px) {
+  .c1dcmm6v {
+    margin-top: 0px
+  }
+  .c146a6u1 {
+    margin-left: var(--size-7)
+  }
+  .c1lidgyn {
+    font-size: 10px
+  }
+  .c1myk96s {
+    max-width: var(--size-content-2)
+  }
+}

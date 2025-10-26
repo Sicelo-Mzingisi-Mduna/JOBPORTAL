@@ -1,0 +1,261 @@
+
+@media all {
+  
+  .c1vrgwod {
+    color: white
+  }
+  .c341gyy {
+    border-top-left-radius: var(--radius-3)
+  }
+  .c1go5bsf {
+    border-top-right-radius: var(--radius-3)
+  }
+  .cvnwuxi {
+    border-bottom-left-radius: var(--radius-3)
+  }
+  .c1gg3wjy {
+    border-bottom-right-radius: var(--radius-3)
+  }
+  .ci2bnlx {
+    display: flex
+  }
+  .cwenbi {
+    flex-direction: row
+  }
+  .cdys1e0 {
+    justify-content: space-around
+  }
+  .c1w3gxbd {
+    align-items: center
+  }
+  .c1t3lyxt {
+    background-color: ghostwhite
+  }
+  .c17759tw {
+    flex-wrap: nowrap
+  }
+  .c1bvpeq0 {
+    line-height: 0.1
+  }
+  .cs7ynik {
+    border: var(--border-size-1) solid white
+  }
+  .c1vyxfk7 {
+    padding: var(--size-1)
+  }
+  .cwpgwm5 {
+    border-top-left-radius: var(--radius-2)
+  }
+  .cql3xvv {
+    border-top-right-radius: var(--radius-2)
+  }
+  .c188xk27 {
+    border-bottom-left-radius: var(--radius-2)
+  }
+  .c160ruuu {
+    border-bottom-right-radius: var(--radius-2)
+  }
+  .c5ip2l4 {
+    box-shadow: var(--shadow-3)
+  }
+  .c7j86bm {
+    border: var(--border-size-1) none lightblue
+  }
+  .cvexot5:hover {
+    background-image: var(--gradient-9)
+  }
+  .cj1w5zi:hover {
+    background-size: auto auto
+  }
+  .c1qhjyr7:hover {
+    background-repeat: repeat
+  }
+  .c1j245bt:hover {
+    background-attachment: scroll
+  }
+  .cdt1gbr:hover {
+    background-origin: padding-box
+  }
+  .c1wtt84r:hover {
+    -webkit-background-clip: border-box;
+    background-clip: border-box
+  }
+  .c19zirrs:hover {
+    background-color: whitesmoke
+  }
+  .c1mep0jb:hover {
+    background-position: 0% 0%
+  }
+  .c12lgn0z {
+    column-gap: var(--gap-xs)
+  }
+  .c1qpctlt {
+    row-gap: var(--gap-xs)
+  }
+  .c1wtnvb5 {
+    text-decoration-line: none
+  }
+  .c1yndkkb {
+    border-top-style: solid
+  }
+  .cndsfpz {
+    border-right-style: solid
+  }
+  .cusdrxj {
+    border-left-style: solid
+  }
+  .c1yauu33 {
+    border-bottom-style: solid
+  }
+  .cuedhvn {
+    border-top-width: 0px
+  }
+  .c1wgf0qk {
+    border-right-width: var(--border-size-1)
+  }
+  .c1y1v70x {
+    border-left-width: var(--border-size-1)
+  }
+  .cq7xldq {
+    border-bottom-width: 0px
+  }
+  .c97fbb {
+    box-shadow: var(--shadow-4), var(--inner-shadow-highlight)
+  }
+  .calaffw {
+    background-color: white
+  }
+  .c1x2nfm5 {
+    justify-content: center
+  }
+  .cimknqo {
+    margin-top: 0em
+  }
+  .c13578e8 {
+    margin-bottom: 0em
+  }
+  .c1hqrv9o {
+    text-align: center
+  }
+  .cesi9tq {
+    font-family: Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif
+  }
+  .c1nfjjn {
+    color: black
+  }
+  .c1jsrtpy {
+    font-weight: 600
+  }
+  .cknz3dx {
+    text-overflow: clip
+  }
+  .c117o8jf {
+    overflow-x: hidden
+  }
+  .c1b0cgjp {
+    overflow-y: hidden
+  }
+  .c19ty1vk {
+    letter-spacing: 0.5px
+  }
+  .c3z6kwy {
+    white-space: pre-line
+  }
+  .c1plj1kd {
+    white-space: pre-line;
+    white-space-collapse: preserve-breaks
+  }
+  .cq7y6wq:hover {
+    text-decoration-line: underline
+  }
+  .crw2tac:hover {
+    color: mediumblue
+  }
+  .c1c3e7p9 {
+    padding-left: 0px
+  }
+  .c1bqqmhx {
+    border: var(--border-size-1) solid lightblue
+  }
+  .cc42tz1 {
+    display: inline-flex
+  }
+  .c1fqs2kx {
+    row-gap: 6px
+  }
+  .c76pdg3 {
+    column-gap: 6px
+  }
+  .c3rerf6 {
+    position: fixed
+  }
+  .c1310xgk {
+    z-index: 1000
+  }
+  .c1asucjw {
+    padding-top: 6px
+  }
+  .c2f18he {
+    padding-right: 10px
+  }
+  .ck22ktf {
+    padding-bottom: 6px
+  }
+  .ctwpizd {
+    padding-left: 10px
+  }
+  .c10gg01r {
+    right: 1px
+  }
+  .cirj543 {
+    bottom: 1px
+  }
+  .c1q35y1w {
+    color: rgba(251, 252, 253, 1)
+  }
+  .c1qe00ly {
+    font-family: emoji, sans-serif
+  }
+  .csevh64 {
+    font-size: 16px
+  }
+  .c1b56ixi {
+    font-weight: 500
+  }
+  .c6wrcvp {
+    border-top-left-radius: 9px
+  }
+  .cf6fb73 {
+    border-top-right-radius: 9px
+  }
+  .cs1x6nz {
+    border-bottom-right-radius: 9px
+  }
+  .c1x716p4 {
+    border-bottom-left-radius: 9px
+  }
+  .c19uhz2d {
+    border: 1px solid transparent
+  }
+  .c606rgr {
+    white-space: nowrap
+  }
+  .c1axtb1i {
+    width: var(--size-6)
+  }
+  .ct17jza {
+    border-top-color: black
+  }
+  .c1fq7rnz {
+    border-right-color: black
+  }
+  .c1hr6wm5 {
+    border-bottom-color: black
+  }
+  .c10vexua {
+    border-left-color: black
+  }
+  .c2ljy2p {
+    font-size: 12px
+  }
+}

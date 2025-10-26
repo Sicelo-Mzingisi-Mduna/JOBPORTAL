@@ -1,3 +1,4 @@
+import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
@@ -5,7 +6,7 @@ import {
   Navigate,
 } from 'react-router-dom';
 import {Toaster} from 'react-hot-toast';
-import LandingPage from './components/LandingPage';
+import LandingPage from './pages/LandingPage/LandingPage';
 import SignUp from './pages/Auth/SignUp';
 import Login from './pages/Auth/Login';
 import JobSeekerDashboard from './pages/JobSeeker/JobSeekerDashboard';
@@ -17,7 +18,7 @@ import JobPostingForm from './pages/Employer/JobPostingForm';
 import ManageJobs from './pages/Employer/ManageJobs';
 import ApplicationViewer from './pages/Employer/ApplicationViewer';
 import EmployerProfilePage from './pages/Employer/EmployerProfilePage';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './routes/ProtectedRoute';
 const App = () => {
   return (
     <div>
@@ -30,8 +31,7 @@ const App = () => {
 
           <Route path= "/find-jobs" element = {<JobSeekerDashboard/>} />
           <Route path= "/job/:jobId" element = {<JobDetails />} />
-          <Route path= "/saved-jobs" element = {<SavedJobs />} />
-          <Route path= "/profile" element = {<UserProfile />} />
+          
 
           {/* Protected */}
           <Route element = {<ProtectedRoute requiredRole = "employer"/>}>
@@ -40,6 +40,8 @@ const App = () => {
             <Route path= "/manage-jobs" element = {<ManageJobs />} />
             <Route path= "/applicants" element = {<ApplicationViewer />} />
             <Route path= "/company-profile" element = {<EmployerProfilePage />} />
+            <Route path= "/saved-jobs" element = {<SavedJobs />} />
+            <Route path= "/profile" element = {<UserProfile />} />
             
           </Route>
 

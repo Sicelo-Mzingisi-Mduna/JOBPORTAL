@@ -12,7 +12,7 @@ const LandingPage = () => {
 
     <HeroSection_LandingPage isAuthenticated={isAuthenticated} user={user}/>
 
-    <Footer_LandingPage/>
+    {/* <Footer_LandingPage/> */}
     </>
   )
 }

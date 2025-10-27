@@ -1,4 +1,4 @@
-/* App.css */
+
 body, html, #root {
   margin: 0;
   background-color: whitesmoke;
@@ -6,15 +6,18 @@ body, html, #root {
 
 
 @layer presets {
-  :root {
-    display: grid;
-    min-height: 100%;
-    font-family: Arial, Roboto, sans-serif;
-    font-size: 16px;
-    line-height: 0;
-    white-space: pre-wrap;
-    white-space-collapse: preserve
+  
+  .w-element-body {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0
   }
+  
   a.w-element {
     box-sizing: border-box;
     border-top-width: 1px;
@@ -22,6 +25,16 @@ body, html, #root {
     border-bottom-width: 1px;
     border-left-width: 1px;
     outline-width: 1px
+  }
+  div.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0
   }
   div.w-element {
     box-sizing: border-box;

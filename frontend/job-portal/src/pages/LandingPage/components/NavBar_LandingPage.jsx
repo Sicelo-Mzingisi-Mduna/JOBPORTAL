@@ -11,6 +11,7 @@ const NavBar_LandingPage = ({isAuthenticated, user}) => {
 
   return (
     <>
+      <div className="NavBarRoot">
       <div
 className={`w-element-body`}>
 <Link
@@ -143,6 +144,7 @@ className={`w-element w-nav-bar-home-text-3 ${"NavBar"}`}>
 {"Sign Up"}
 </h4>
 </Link>
+</div>
 </div>
 </div>
 </div>

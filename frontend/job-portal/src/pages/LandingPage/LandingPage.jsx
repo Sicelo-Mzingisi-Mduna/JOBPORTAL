@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar_LandingPage from '../LandingPage/components/NavBar_LandingPage'
 import HeroSection_LandingPage from '../LandingPage/components/HeroSection_LandingPage'
+import InfoSection_LandingPage from '../LandingPage/components/InfoSection_LandingPage'
+import Analytics_LandingPage from '../LandingPage/components/Analytics_LandingPage'
 import Footer_LandingPage from '../LandingPage/components/Footer_LandingPage'
 
 const LandingPage = () => {
@@ -12,7 +14,11 @@ const LandingPage = () => {
 
     <HeroSection_LandingPage isAuthenticated={isAuthenticated} user={user}/>
 
-    {/* <Footer_LandingPage/> */}
+    <InfoSection_LandingPage/>
+
+    <Analytics_LandingPage/>
+
+    <Footer_LandingPage/>
     </>
   )
 }

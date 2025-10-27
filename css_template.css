@@ -1,18 +1,26 @@
 @layer presets {
-	.NavBarRoot {
-    display: grid;
-    min-height: 100%;
-    font-family: Arial, Roboto, sans-serif;
-    font-size: 16px;
+/* -------------------------------------- */
+ div.w-element-body {
+    /* ******************** */
+	  
     line-height: 0;
-    white-space: pre-wrap;
-    white-space-collapse: preserve
+
+    /* ********************             */
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0
   }
-  
+
+/* ------------------------------------------------- */
 }
 
 @media all {
-
+/* ----------------------------------------- */
 	.w-built-by-sicelo-link {
     display: inline-flex;
     row-gap: 6px;
@@ -457,5 +465,5 @@
     text-decoration-line: underline;
     color: mediumblue
   }
-  
- }
+/* ----------------------------------------------- */
+}

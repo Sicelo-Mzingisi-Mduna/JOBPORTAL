@@ -8,7 +8,9 @@ const HeroSection_LandingPage = ({isAuthenticated, user}) => {
   const navigate = useNavigate();
   return (
     <>
-      <div
+      <div className="HeroSectionRoot">
+
+          <div
 className={`w-element-body`}>
 <Link
 href={"https://webstudio.is/?via=badge"}
@@ -29,159 +31,176 @@ className={`w-element w-built-by-sicelo-text`}>
 </div>
 </Link>
 <div
-id={"Hero_Section_Container"}
-className={`w-element w-hero-section-container`}>
+id={"Hero_Section_Container_1"}
+className={`w-element w-hero-section-container-1`}>
 <div
-id={"Text Wrapper"}
-className={`w-element w-text-wrapper`}>
+id={"Text Wrapper_2"}
+className={`w-element w-text-hero-section-wrapper-2`}>
 <div
-id={"Heading_Wrapper"}
-className={`w-element w-heading-wrapper`}>
+id={"Heading_Wrapper_9"}
+className={`w-element w-heading-wrapper-9`}>
 <div
-id={"Heading_Text_wraper"}
-className={`w-element w-heading-text-wraper`}>
+id={"Heading_Text_wraper_10"}
+className={`w-element w-heading-text-wraper-10`}>
 <p
-id={"Heading_text_1"}
-className={`w-element w-heading-text-1`}>
+id={"Heading_text_11"}
+className={`w-element w-heading-text-11`}>
 {"Find Your "}
 </p>
 <p
-id={"Heading_text_2"}
-className={`w-element w-heading-text-2`}>
+id={"Heading_text_12"}
+className={`w-element w-heading-text-12`}>
 {"Dream Job 💼"}
 </p>
 </div>
 <p
-id={"Heading_text_3"}
-className={`w-element w-heading-text-3`}>
+id={"Heading_text_13"}
+className={`w-element w-heading-text-13`}>
 {"or "}
 </p>
 <p
-id={"Heading_text_4"}
-className={`w-element w-heading-text-4`}>
+id={"Heading_text_14"}
+className={`w-element w-heading-text-14`}>
 {"Perfect Hire 👨‍💻"}
 </p>
 </div>
 <div
-id={"Description_Wrapper"}
+id={"Description_Wrapper_2"}
 className={`w-element`}>
 <p
-id={"Description_text"}
-className={`w-element w-description-text`}>
+id={"Description_text_15"}
+className={`w-element w-description-text-15`}>
 {"Connecting talent and opportunity — one click at a time."}
 </p>
 </div>
 </div>
 <hr
-id={"thematic_break_1"}
-className={`w-element w-thematic-break-1`} />
+id={"thematic_break_3"}
+className={`w-element w-thematic-break-3`} />
 <Box
-className={`w-box w-button-group`}>
+id={"Button Group_4"}
+className={`w-box w-button-group-4`}>
 <Link
-id={"find_jobs"}
+id={"find_jobs_16"}
 href={"/find-jobs"}
-className={`w-element w-find-jobs`}>
+onClick={(e) => {
+    e.preventDefault();
+    navigate("/find-jobs");
+  }}
+className={`w-element w-find-jobs-16`}>
 <HtmlEmbed
 code={"<img width=\"25\" height=\"25\" src=\"https://img.icons8.com/3d-fluency/94/search.png\" alt=\"search\"/>"}
 className={`w-html-embed`} />
 <h1
-id={"find_jobs_text"}
-className={`w-element w-find-jobs-text`}>
+id={"find_jobs_text_19"}
+className={`w-element w-find-jobs-text-19`}>
 {"Find Jobs"}
 </h1>
 </Link>
 <Link
-id={"post_jobs"}
+id={"post_jobs_17"}
 href={"/post-job"}
-className={`w-element w-post-jobs`}>
+onClick={(e) => {
+    e.preventDefault();
+    isAuthenticated && user.role === "employer" ? 
+    navigate("/post-job") 
+    : navigate("/login");
+  }}
+className={`w-element w-post-jobs-17`}>
 <HtmlEmbed
 code={"<img width=\"25\" height=\"25\" src=\"https://img.icons8.com/fluency/48/upload-2.png\" alt=\"upload-2\"/>"}
 className={`w-html-embed`} />
 <h1
-id={"post_jobs_text"}
-className={`w-element w-post-jobs-text`}>
+id={"post_jobs_text_21"}
+className={`w-element w-post-jobs-text-21`}>
 {"Post a Job"}
 </h1>
 </Link>
 </Box>
 <hr
-id={"thematic_break_2"}
-className={`w-element w-thematic-break-2`} />
+id={"thematic_break_5"}
+className={`w-element w-thematic-break-5`} />
 <Box
-id={"Metrics"}
-className={`w-box w-metrics`}>
+id={"Metrics_6"}
+className={`w-box w-metrics-6`}>
 <div
-id={"Active_users"}
-className={`w-element w-active-users`}>
+id={"Active_users_22"}
+className={`w-element w-active-users-22`}>
 <HtmlEmbed
 code={"<img width=\"30\" height=\"30\" src=\"https://img.icons8.com/fluency/48/group.png\" alt=\"group\"/>"}
-className={`w-html-embed w-active-users-icon`} />
+className={`w-html-embed w-active-users-icon-25`} />
 <h1
-id={"Active_users_number"}
-className={`w-element w-active-users-number`}>
+id={"Active_users_number_26"}
+className={`w-element w-active-users-number-26`}>
 {"2.4M+"}
 </h1>
 <p
-id={"Active_users_text"}
-className={`w-element w-active-users-text`}>
+id={"Active_users_text_27"}
+className={`w-element w-active-users-text-27`}>
 {"Active Users"}
 </p>
 </div>
 <div
-id={"Companies"}
-className={`w-element w-companies`}>
+id={"Companies_23"}
+className={`w-element w-companies-23`}>
 <HtmlEmbed
 code={"<img width=\"30\" height=\"30\" src=\"https://img.icons8.com/fluency/48/client-company.png\" alt=\"client-company\"/>"}
-className={`w-html-embed w-html-embed-1`} />
+className={`w-html-embed w-companies-icon-28`} />
 <h1
-className={`w-element w-element-1`}>
+id={"Companies_Heading_29"}
+className={`w-element w-companies-heading-29`}>
 {"50K+"}
 </h1>
 <p
-className={`w-element w-element-2`}>
+id={"Companies_paragraph_30"}
+className={`w-element w-companies-paragraph-30`}>
 {"Companies"}
 </p>
 </div>
 <div
-className={`w-element w-active-users-1`}>
+id={"Active_users_24"}
+className={`w-element w-active-users-24`}>
 <HtmlEmbed
 code={"<img width=\"30\" height=\"30\" src=\"https://img.icons8.com/fluency/48/positive-dynamic.png\" alt=\"positive-dynamic\"/>"}
-className={`w-html-embed w-html-embed-2`} />
+className={`w-html-embed w-active-users-icon-31`} />
 <h1
-className={`w-element w-element-3`}>
+id={"Active_users_heading_32"}
+className={`w-element w-active-users-heading-32`}>
 {"150K+"}
 </h1>
 <p
-className={`w-element w-element-4`}>
+id={"Active_users_paragraph_33"}
+className={`w-element w-active-users-paragraph-33`}>
 {"Jobs Posted"}
 </p>
 </div>
 </Box>
 <hr
-id={"thematic_break_3"}
-className={`w-element w-thematic-break-3`} />
+id={"thematic_break_7"}
+className={`w-element w-thematic-break-7`} />
 <div
-id={"Text Wrapper"}
-className={`w-element w-text-wrapper-1`}>
+id={"Text Wrapper_8"}
+className={`w-element w-text-wrapper-8`}>
 <div
-id={"Heading_Wrapper"}
+id={"Heading_Wrapper_34"}
 className={`w-element`}>
 <p
-id={"Main_Heading"}
-className={`w-element w-element-5`}>
+id={"paragraph_35"}
+className={`w-element w-paragraph-35`}>
 {"Everything You Need to"}
 </p>
 <p
-id={"Main_Heading"}
-className={`w-element w-element-6`}>
+id={"paragraph_36"}
+className={`w-element w-paragraph-36`}>
 {"Succeed ✨"}
 </p>
 </div>
 <div
-id={"Description_Wrapper"}
+id={"Description_Wrapper_37"}
 className={`w-element`}>
 <p
-className={`w-element w-element-7`}>
+id={"paragraph_38"}
+className={`w-element w-paragraph-38`}>
 {"Whether you're looking for your next opporunity or the perfect candidate. "}
 <br />
 {"We have the tools and features to make it happen."}
@@ -189,7 +208,9 @@ className={`w-element w-element-7`}>
 </div>
 </div>
 </div>
-</div>
+</div>  
+      </div>
+
     </>
   )
 }

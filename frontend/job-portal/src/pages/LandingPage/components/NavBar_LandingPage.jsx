@@ -14,24 +14,6 @@ const NavBar_LandingPage = ({isAuthenticated, user}) => {
       <div className="NavBarRoot">
       <div
 className={`w-element-body`}>
-<Link
-href={"https://webstudio.is/?via=badge"}
-target={"_blank"}
-id={"Built by Sicelo_Link"}
-className={`w-element w-built-by-sicelo-link`}>
-<HtmlEmbed
-code={"<img width=\"70%\" height=\"70%\" src=\"https://img.icons8.com/fluency/48/github.png\" alt=\"github\"/>"}
-className={`w-html-embed w-github-icon`} />
-<div
-id={"Built by Sicelo_Text_Wrapper"}
-className={`w-element w-built-by-sicelo-text-wrapper`}>
-<span
-id={"Built by Sicelo_Text"}
-className={`w-element w-built-by-sicelo-text`}>
-{"Sicelo Mduna"}
-</span>
-</div>
-</Link>
 <div
 id={"NavBar_container"}
 className={`w-element w-navbar-container`}>

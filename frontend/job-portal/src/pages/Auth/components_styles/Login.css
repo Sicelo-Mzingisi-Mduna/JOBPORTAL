@@ -1,0 +1,422 @@
+@layer presets {
+	.LoginRoot {
+    display: grid;
+    min-height: 100%;
+    font-family: Arial, Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: pre-wrap;
+    white-space-collapse: preserve
+  }
+
+}
+
+@media all {
+
+  .error-text {
+  color: #ff4d4f;           /* red tone */
+  font-size: 0.9rem;
+  margin-top: 4px;
+  font-weight: 500;
+}
+  .w-built-by-sicelo-link {
+    display: inline-flex;
+    row-gap: 6px;
+    column-gap: 6px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    right: 1px;
+    bottom: 1px;
+    color: rgba(251, 252, 253, 1);
+    font-family: emoji, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    text-decoration-line: none;
+    border: 1px solid transparent;
+    white-space: nowrap
+  }
+  .w-github-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--size-6)
+  }
+  .w-built-by-sicelo-text-wrapper {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    color: black
+  }
+  .w-built-by-sicelo-text {
+    font-size: 12px;
+    letter-spacing: 0.5px
+  }
+  .w-sign-in-body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke
+  }
+  .w-sign-in-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-m);
+    row-gap: var(--gap-m);
+    height: 100vh
+  }
+  .w-sign-in-card {
+    background-color: ghostwhite;
+    box-shadow: var(--shadow-4);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-sm);
+    border: var(--border-size-3) solid lightblue;
+    padding: var(--size-3)
+  }
+  .w-sign-in-card-heading-wrapper {
+    display: block
+  }
+  .w-card-heading {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: var(--size-2);
+    padding-left: var(--size-3);
+    padding-right: var(--size-3);
+    padding-bottom: var(--size-2);
+    font-family: Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif;
+    color: black;
+    text-align: center;
+    max-width: var(--size-header-3);
+    font-size: 1.5em;
+    text-wrap: pretty
+  }
+  .w-sign-in-card-paragraph-wrapper {
+    display: block
+  }
+  .w-sign-in-card-paragraph-text {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+    font-family: system-ui, sans-serif;
+    color: darkslategrey;
+    font-size: 16px;
+    padding-left: var(--size-3);
+    padding-right: var(--size-3);
+    text-align: center
+  }
+  .w-sign-in-from-wrapper {
+    display: block;
+    margin-top: var(--size-7)
+  }
+  .w-sign-in-form {
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    flex-direction: column;
+    box-shadow: var(--inner-shadow-3), var(--inner-shadow-highlight), var(--shadow-4);
+    background-color: whitesmoke;
+    border-top: 0px solid lightblue;
+    border-right: var(--border-size-2) solid lightblue;
+    border-bottom: 0px solid lightblue;
+    border-left: var(--border-size-2) solid lightblue;
+    padding: var(--size-3)
+  }
+  .w-sign-in-email-address {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-sign-in-email-label-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-email-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .w-email-label-text {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-size: 16px;
+    font-weight: 600
+  }
+  .w-high-importance-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black
+  }
+  .w-sign-in-email-input-field-container {
+    width: var(--size-xs)
+  }
+  .w-sign-in-email-input-filed {
+    display: block;
+    border-top-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-left-color: dodgerblue;
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-relative-15);
+    box-shadow: var(--inner-shadow-4), var(--inner-shadow-4);
+    font-size: 18px
+  }
+  .w-sign-in-email-input-filed::placeholder {
+    color: darkgrey;
+    font-family: emoji, sans-serif
+  }
+  .w-sign-in-email-input-filed:focus-visible {
+    color: black
+  }
+  .w-sign-in-email-input-filed:hover {
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    background-color: floralwhite
+  }
+  .w-sign-in-email-input-filed:invalid {
+    border-top-color: var(--red-6);
+    border-right-color: var(--red-6);
+    border-bottom-color: var(--red-6);
+    border-left-color: var(--red-6);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-sign-in-email-input-filed:placeholder-shown {
+    color: black
+  }
+  .w-sign-in-email-input-filed:required {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-sign-in-email-input-filed:user-invalid {
+    border-top-color: var(--red-7);
+    border-right-color: var(--red-7);
+    border-bottom-color: var(--red-7);
+    border-left-color: var(--red-7);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-sign-in-password {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    margin-top: var(--size-5)
+  }
+  .w-sign-in-password-label-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-password-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .w-password-label-text {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-size: 16px;
+    font-weight: 600
+  }
+  .w-high-importance-icon-1 {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black
+  }
+  .w-sign-in-password-icon-input-field-container {
+    display: flex;
+    width: var(--size-xs)
+  }
+  .w-sign-in-password-input-filed {
+    display: block;
+    border-top-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-left-color: dodgerblue;
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    box-shadow: var(--inner-shadow-4), var(--inner-shadow-4);
+    font-size: 18px;
+    width: var(--size-relative-15)
+  }
+  .w-sign-in-password-input-filed::placeholder {
+    color: darkgrey;
+    font-family: emoji, sans-serif
+  }
+  .w-sign-in-password-input-filed:hover {
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    background-color: floralwhite
+  }
+  .w-sign-in-password-input-filed:invalid {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-sign-in-password-input-filed:placeholder-shown {
+    color: black;
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2)
+  }
+  .w-sign-in-password-input-filed:user-invalid {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-password-eye-button {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px
+  }
+  .w-sign-in-button-wrapper {
+    width: var(--size-xs);
+    margin-top: var(--size-5);
+    display: flex;
+    align-items: center;
+    justify-content: start
+  }
+  .w-sign-in-button {
+    width: var(--size-xs);
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: 0px;
+    border-right-width: var(--border-size-3);
+    border-left-width: var(--border-size-3);
+    border-bottom-width: 0px;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    background-color: lightskyblue;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    background-image: var(--gradient-7);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    letter-spacing: 1px;
+    box-shadow: var(--shadow-4);
+    background-position: 0% 0%
+  }
+  .w-sign-in-button:hover {
+    background-image: var(--gradient-29)
+  }
+  .w-sign-in-button-wrapper-1 {
+    width: var(--size-xs);
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-no-account-text {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: black
+  }
+  .w-sign-up-link {
+    display: inline-block;
+    max-width: var(--size-content-3);
+    font-weight: 600;
+    font-size: 16px
+  }
+}

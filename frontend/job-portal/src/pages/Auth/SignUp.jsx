@@ -48,10 +48,7 @@ const SignUp = () => {
       fullname: fullname,
     }))
 
-    // console.debug();
-
   };
-  // console.debug();
 
   const handleEmailChange = (e) =>{
     const  email = e.target.value
@@ -83,8 +80,6 @@ const SignUp = () => {
     }
   }
 
-  // console.debug();
-
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     setFormState((prev) => ({
@@ -95,7 +90,7 @@ const SignUp = () => {
 
     try {
       // Example fake delay
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      await new Promise((resolve) => setTimeout(resolve, 1600));
 
       setFormState((prev) => ({
         ...prev,

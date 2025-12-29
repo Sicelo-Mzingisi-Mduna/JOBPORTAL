@@ -2,11 +2,15 @@ import React, {useState} from 'react'
 import { Loader2 } from 'lucide-react'
 import '../Auth/components_styles/Login.css'
 import '../Auth/components_styles/Loader.css'
+import  {useNavigate} from 'react-router-dom';
 
 import { Link } from "@webstudio-is/sdk-components-react-router";
 import { HtmlEmbed, Input } from "@webstudio-is/sdk-components-react";
 
 const Login = () => {
+
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -312,7 +316,11 @@ className={`w-element w-no-account-text ${"30"}`}>
 </p>
 <Link
 id={"Sign_Up_Link"}
-href={"/sign_up"}
+href={"/signup"}
+onClick={(e) => {
+    e.preventDefault();
+    navigate("/signup");
+  }}
 className={`w-element w-sign-up-link ${"31"}`}>
 {"Create Account"}
 </Link>

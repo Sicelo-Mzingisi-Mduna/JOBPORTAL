@@ -1,0 +1,1260 @@
+@layer presets {
+	.SignUpRoot {
+    display: grid;
+    min-height: 100%;
+    font-family: Arial, Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: pre-wrap;
+    white-space-collapse: preserve
+  }
+
+  a.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  div.w-element-body {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0
+  }
+  button.w-element {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    text-transform: none;
+    margin: 0
+  }
+  div.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  form.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  h1.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  h3.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  hr.w-element {
+    height: 0;
+    color: inherit;
+    box-sizing: border-box
+  }
+  input.w-element {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin: 0
+  }
+  label.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  p.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  span.w-element {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  div.w-html-embed {
+    display: contents;
+    white-space: normal;
+    white-space-collapse: collapse
+  }
+  img.w-image {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px;
+    max-width: 100%;
+    display: block;
+    height: auto
+  }
+  div.w-tabs {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  div.w-tabs-list {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+  button.w-tab-trigger {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    box-sizing: border-box;
+    text-transform: none;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid rgba(226, 232, 240, 1);
+    margin: 0;
+    padding: 0px
+  }
+  div.w-tab-content {
+    box-sizing: border-box;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    outline-width: 1px
+  }
+
+}
+
+@media all {
+  .w-built-by-sicelo-link {
+    display: inline-flex;
+    row-gap: 6px;
+    column-gap: 6px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    right: 1px;
+    bottom: 1px;
+    color: rgba(251, 252, 253, 1);
+    font-family: emoji, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    text-decoration-line: none;
+    border: 1px solid transparent;
+    white-space: nowrap
+  }
+  .w-github-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--size-6)
+  }
+  .w-built-by-sicelo-text-wrapper {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    color: black
+  }
+  .w-built-by-sicelo-text {
+    font-size: 12px;
+    letter-spacing: 0.5px
+  }
+  .w-sign-up-body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow-x: visible;
+    overflow-y: visible;
+    object-fit: fill
+  }
+  .w-sign-up-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-m);
+    row-gap: var(--gap-m);
+    height: auto
+  }
+  .w-sign-up-card {
+    width: var(--size-sm);
+    background-color: ghostwhite;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    box-shadow: var(--shadow-6);
+    border: var(--border-size-3) solid lightblue;
+    padding: var(--size-3)
+  }
+  .w-sign-up-card-heading {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: var(--size-2);
+    padding-left: var(--size-3);
+    padding-right: var(--size-3);
+    padding-bottom: var(--size-2);
+    font-family: Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif;
+    color: black;
+    text-align: center;
+    max-width: var(--size-header-3);
+    font-size: 1.5em;
+    text-wrap: pretty
+  }
+  .w-sign-up-card-paragraph {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+    font-family: cursive, sans-serif;
+    color: darkslategrey;
+    font-size: 14px;
+    text-align: center;
+    padding: var(--size-3)
+  }
+  .w-sign-up-form-wrapper {
+    margin-top: var(--size-7)
+  }
+  .w-sign-up-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-s);
+    row-gap: var(--gap-s);
+    background-color: whitesmoke;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    box-shadow: var(--inner-shadow-3), var(--inner-shadow-highlight), var(--shadow-4);
+    flex-direction: column;
+    border-top: 0px solid lightblue;
+    border-right: var(--border-size-2) solid lightblue;
+    border-bottom: 0px solid lightblue;
+    border-left: var(--border-size-2) solid lightblue;
+    padding: var(--size-3)
+  }
+  .w-sign-up-full-name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    margin-top: 0px
+  }
+  .w-sign-up-full-name-label-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-fullname-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: end;
+    justify-content: center
+  }
+  .w-fullname-label-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-fullname-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: var(--size-1)
+  }
+  .w-high-importance-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 800;
+    color: var(--red-9);
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: var(--size-1)
+  }
+  .w-sign-up-full-name-input-field-wrapper {
+    width: var(--size-xs)
+  }
+  .w-sign-up-fullname-input-field {
+    display: block;
+    border-top-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-left-color: dodgerblue;
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    box-shadow: var(--inner-shadow-4), var(--inner-shadow-4);
+    font-size: 18px
+  }
+  .w-sign-up-fullname-input-field::placeholder {
+    color: darkgrey;
+    font-family: emoji, sans-serif
+  }
+  .w-sign-up-fullname-input-field:focus-visible {
+    color: black
+  }
+  .w-sign-up-fullname-input-field:hover {
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    background-color: floralwhite
+  }
+  .w-sign-up-fullname-input-field:invalid {
+    border-top-color: var(--red-6);
+    border-right-color: var(--red-6);
+    border-bottom-color: var(--red-6);
+    border-left-color: var(--red-6);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-sign-up-fullname-input-field:placeholder-shown {
+    color: black
+  }
+  .w-sign-up-fullname-input-field:required {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-sign-up-fullname-input-field:user-invalid {
+    border-top-color: var(--red-7);
+    border-right-color: var(--red-7);
+    border-bottom-color: var(--red-7);
+    border-left-color: var(--red-7);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-linebreak-1 {
+    color: gray;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    box-shadow: var(--shadow-3);
+    border: var(--border-size-2) solid lightgrey
+  }
+  .w-sign-up-email-address {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-sign-up-email-label-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-email-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: end;
+    justify-content: center
+  }
+  .w-email-label-text-container {
+    display: flex
+  }
+  .w-email-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: var(--size-1)
+  }
+  .w-high-importance-icon-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 800;
+    color: var(--red-9);
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: var(--size-1)
+  }
+  .w-sign-up-email-input-field-wrapper {
+    width: var(--size-xs)
+  }
+  .w-sign-up-email-input-field {
+    display: block;
+    border-top-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-left-color: dodgerblue;
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    box-shadow: var(--inner-shadow-4), var(--inner-shadow-4);
+    font-size: 18px
+  }
+  .w-sign-up-email-input-field::placeholder {
+    color: darkgrey;
+    font-family: emoji, sans-serif
+  }
+  .w-sign-up-email-input-field:focus-visible {
+    color: black
+  }
+  .w-sign-up-email-input-field:hover {
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    background-color: floralwhite
+  }
+  .w-sign-up-email-input-field:invalid {
+    border-top-color: var(--red-6);
+    border-right-color: var(--red-6);
+    border-bottom-color: var(--red-6);
+    border-left-color: var(--red-6);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-sign-up-email-input-field:placeholder-shown {
+    color: black
+  }
+  .w-sign-up-email-input-field:required {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-sign-up-email-input-field:user-invalid {
+    border-top-color: var(--red-7);
+    border-right-color: var(--red-7);
+    border-bottom-color: var(--red-7);
+    border-left-color: var(--red-7);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-linebreak-2 {
+    color: gray;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    box-shadow: var(--shadow-3);
+    border: var(--border-size-2) solid lightgrey
+  }
+  .w-sign-up-password {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-sign-up-password-label-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-password-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: end;
+    justify-content: center
+  }
+  .w-password-label-text-container {
+    display: flex
+  }
+  .w-password-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: var(--size-1)
+  }
+  .w-high-importance-icon-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 800;
+    color: var(--red-9);
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: var(--size-1)
+  }
+  .w-sign-up-password-input-field-wrapper {
+    width: var(--size-xs);
+    display: flex
+  }
+  .w-sign-up-password-input-field {
+    display: block;
+    border-top-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-left-color: dodgerblue;
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    box-shadow: var(--inner-shadow-4), var(--inner-shadow-4);
+    font-size: 18px
+  }
+  .w-sign-up-password-input-field::placeholder {
+    color: darkgrey;
+    font-family: emoji, sans-serif
+  }
+  .w-sign-up-password-input-field:focus-visible {
+    color: black
+  }
+  .w-sign-up-password-input-field:hover {
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    background-color: floralwhite
+  }
+  .w-sign-up-password-input-field:invalid {
+    border-top-color: var(--red-6);
+    border-right-color: var(--red-6);
+    border-bottom-color: var(--red-6);
+    border-left-color: var(--red-6);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-sign-up-password-input-field:placeholder-shown {
+    color: black
+  }
+  .w-sign-up-password-input-field:required {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-sign-up-password-input-field:user-invalid {
+    border-top-color: var(--red-7);
+    border-right-color: var(--red-7);
+    border-bottom-color: var(--red-7);
+    border-left-color: var(--red-7);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-password-eye-button {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px
+  }
+  .w-linebreak-3 {
+    color: gray;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    box-shadow: var(--shadow-3);
+    border: var(--border-size-2) solid lightgrey
+  }
+  .w-sign-up-profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: var(--gap-s);
+    row-gap: var(--gap-s)
+  }
+  .w-sign-up-profile-picture-label-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-profile-picture-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: end;
+    justify-content: center
+  }
+  .w-sign-up-profile-picture-text-container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: var(--size-1)
+  }
+  .w-profile-picture-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.5px
+  }
+  .w-sign-up-profile-picture-input-field-wrapper {
+    width: var(--size-xs);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-sign-up-profile-picture-1 {
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    max-width: 48px;
+    max-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--size-relative-10);
+    border: var(--border-size-2) solid lightblue
+  }
+  .w-sign-up-profile-picture-input-filed {
+    display: flex;
+    border-top-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-left-color: dodgerblue;
+    padding-left: var(--size-3);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-3);
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-relative-15);
+    box-shadow: var(--inner-shadow-4), var(--inner-shadow-4);
+    font-size: 16px;
+    color: var(--red-4);
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    letter-spacing: 0.5px
+  }
+  .w-sign-up-profile-picture-input-filed::placeholder {
+    color: dimgrey;
+    font-family: emoji, sans-serif
+  }
+  .w-sign-up-profile-picture-input-filed:focus-visible {
+    color: black
+  }
+  .w-sign-up-profile-picture-input-filed:hover {
+    border-top-width: var(--border-size-2);
+    border-right-width: var(--border-size-2);
+    border-left-width: var(--border-size-2);
+    border-bottom-width: var(--border-size-2);
+    background-color: floralwhite
+  }
+  .w-sign-up-profile-picture-input-filed:invalid {
+    border-top-color: var(--red-6);
+    border-right-color: var(--red-6);
+    border-bottom-color: var(--red-6);
+    border-left-color: var(--red-6);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-sign-up-profile-picture-input-filed:placeholder-shown {
+    color: black
+  }
+  .w-sign-up-profile-picture-input-filed:required {
+    border-top-color: lightblue;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: lightblue
+  }
+  .w-sign-up-profile-picture-input-filed:user-invalid {
+    border-top-color: var(--red-7);
+    border-right-color: var(--red-7);
+    border-bottom-color: var(--red-7);
+    border-left-color: var(--red-7);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid
+  }
+  .w-linebreak-4 {
+    color: gray;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    box-shadow: var(--shadow-3);
+    border: var(--border-size-2) solid lightgrey
+  }
+  .w-sign-up-user-role {
+    display: flex;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-user-role-label-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-user-role-label-icon {
+    width: var(--size-3);
+    height: var(--size-3);
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .w-user-role-label-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .w-user-role-label-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.5px
+  }
+  .w-high-importance-icon-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+    font-weight: 800;
+    color: var(--red-9);
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: var(--size-1)
+  }
+  .w-tabs-1 {
+    display: flex;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    align-items: center;
+    justify-content: center;
+    padding: var(--size-3)
+  }
+  .w-tabs-list-1 {
+    display: flex;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    align-items: center;
+    justify-content: end;
+    flex-direction: row
+  }
+  .w-tab-trigger-1 {
+    display: flex;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    justify-content: center;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    transition-property: border, box-shadow;
+    transition-duration: var(--duration-default), var(--duration-default);
+    transition-timing-function: var(--easing-default), var(--easing-default);
+    transition-delay: 0ms, 0ms;
+    transition-behavior: normal, normal;
+    align-items: center;
+    background-image: var(--gradient-9);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    border: var(--border-size-2) solid transparent;
+    background-position: 0% 0%
+  }
+  .w-tab-trigger-1:focus-visible {
+    outline-offset: var(--focus-offset);
+    outline: var(--focus-width) solid var(--focus-color)
+  }
+  .w-tab-trigger-1:hover {
+    border-top-color: var(--background-accent);
+    border-right-color: var(--background-accent);
+    border-bottom-color: var(--background-accent);
+    border-left-color: var(--background-accent)
+  }
+  .w-tab-trigger-1[data-state=active] {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-color: var(--background-accent);
+    border-right-color: var(--background-accent);
+    border-bottom-color: var(--background-accent);
+    border-left-color: var(--background-accent);
+    box-shadow: var(--shadow-4)
+  }
+  .w-job-seeker-tab-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    height: auto;
+    padding: var(--size-3)
+  }
+  .w-job-seeker-heading {
+    margin-top: 0em;
+    margin-bottom: 0em
+  }
+  .w-tab-trigger-2 {
+    display: flex;
+    flex-direction: column;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    justify-content: space-between;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    transition-property: border, box-shadow;
+    transition-duration: var(--duration-default), var(--duration-default);
+    transition-timing-function: var(--easing-default), var(--easing-default);
+    transition-delay: 0ms, 0ms;
+    transition-behavior: normal, normal;
+    background-image: var(--gradient-22);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    border: var(--border-size-2) solid transparent;
+    background-position: 0% 0%
+  }
+  .w-tab-trigger-2:focus-visible {
+    outline-offset: var(--focus-offset);
+    outline: var(--focus-width) solid var(--focus-color)
+  }
+  .w-tab-trigger-2:hover {
+    border-top-color: var(--background-accent);
+    border-right-color: var(--background-accent);
+    border-bottom-color: var(--background-accent);
+    border-left-color: var(--background-accent)
+  }
+  .w-tab-trigger-2[data-state=active] {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-color: var(--background-accent);
+    border-right-color: var(--background-accent);
+    border-bottom-color: var(--background-accent);
+    border-left-color: var(--background-accent);
+    box-shadow: var(--shadow-4)
+  }
+  .w-employer-tab-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    height: auto;
+    padding: var(--size-3)
+  }
+  .w-employer-heading {
+    margin-top: 0em;
+    margin-bottom: 0em
+  }
+  .w-tab-content-1 {
+    align-items: center;
+    justify-content: start
+  }
+  .w-job-seeker-tab-content-wrapper {
+    padding-right: 0
+  }
+  .w-job-seeker-screen {
+    border-top-color: var(--background-accent);
+    border-right-color: var(--background-accent);
+    border-bottom-color: var(--background-accent);
+    border-left-color: var(--background-accent);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    background-color: var(--background-accent);
+    margin-bottom: 0px;
+    overflow-x: auto;
+    overflow-y: auto;
+    flex-direction: column;
+    margin-right: var(--size-7);
+    margin-left: var(--size-7);
+    background-image: var(--gradient-9);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    height: var(--size-fluid-8);
+    background-position: 0% 0%
+  }
+  .w-job-seeker-screentext {
+    text-align: start;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: black;
+    font-family: Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif;
+    max-height: var(--size-content-3);
+    height: var(--size-11);
+    padding: var(--size-3);
+    text-wrap: stable
+  }
+  .w-tab-content-2 {
+    align-items: center;
+    justify-content: start
+  }
+  .w-employer-tab-content-wrapper {
+    padding-right: 0
+  }
+  .w-linebreak-4-1 {
+    color: gray;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    width: var(--size-xs);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    box-shadow: var(--shadow-3);
+    border: var(--border-size-2) solid lightgrey
+  }
+  .w-create-job-seeker-account-buttonwrapper {
+    width: auto;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start
+  }
+  .w-create-job-seeker-account-button {
+    width: var(--size-14);
+    padding-left: var(--size-1);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-1);
+    border-top-width: 0px;
+    border-right-width: var(--border-size-3);
+    border-left-width: var(--border-size-3);
+    border-bottom-width: 0px;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    background-color: lightskyblue;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    background-image: var(--gradient-7);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    letter-spacing: 1px;
+    box-shadow: var(--shadow-4);
+    margin-bottom: 0rem;
+    margin-left: var(--size-1);
+    margin-right: var(--size-1);
+    background-position: 0% 0%
+  }
+  .w-create-job-seeker-account-button:hover {
+    background-image: var(--gradient-29)
+  }
+  .w-employer-screen {
+    border-top-color: var(--background-accent);
+    border-right-color: var(--background-accent);
+    border-bottom-color: var(--background-accent);
+    border-left-color: var(--background-accent);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs);
+    background-color: var(--background-accent);
+    margin-bottom: 0px;
+    overflow-x: auto;
+    overflow-y: auto;
+    flex-direction: column;
+    margin-right: var(--size-7);
+    margin-left: var(--size-7);
+    background-image: var(--gradient-9);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    height: var(--size-fluid-8);
+    background-position: 0% 0%
+  }
+  .w-employer-screentext {
+    text-align: start;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: black;
+    font-family: Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif;
+    max-height: var(--size-content-3);
+    height: var(--size-11);
+    padding: var(--size-3);
+    text-wrap: stable
+  }
+  .w-create-employer-account-buttonwrapper {
+    width: auto;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start
+  }
+  .w-create-employer-account-button {
+    width: var(--size-14);
+    padding-left: var(--size-1);
+    padding-top: var(--size-2);
+    padding-bottom: var(--size-2);
+    padding-right: var(--size-1);
+    border-top-width: 0px;
+    border-right-width: var(--border-size-3);
+    border-left-width: var(--border-size-3);
+    border-bottom-width: 0px;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-top-left-radius: var(--radius-3);
+    border-top-right-radius: var(--radius-3);
+    border-bottom-left-radius: var(--radius-3);
+    border-bottom-right-radius: var(--radius-3);
+    background-color: lightskyblue;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    background-image: var(--gradient-7);
+    background-size: auto auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    letter-spacing: 1px;
+    box-shadow: var(--shadow-4);
+    margin-bottom: 0px;
+    margin-left: var(--size-1);
+    margin-right: var(--size-1);
+    background-position: 0% 0%
+  }
+  .w-create-employer-account-button:hover {
+    background-image: var(--gradient-29)
+  }
+  .w-log-in-button-wrapper {
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--gap-xs);
+    row-gap: var(--gap-xs)
+  }
+  .w-no-account-text {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: black
+  }
+  .w-log-in-link {
+    display: inline-block;
+    max-width: var(--size-content-3);
+    font-weight: 600;
+    font-size: 16px
+  }
+}
+@media all and (max-width: 991px) {
+  .w-sign-up-card-heading:focus-visible {
+    margin-top: var(--size-13)
+  }
+  .w-job-seeker-tab-card {
+    border: 0px none var(--background-card)
+  }
+  .w-employer-tab-card {
+    border: 0px none var(--background-card)
+  }
+  .w-employer-screen {
+    height: var(--size-fluid-8)
+  }
+  .w-create-employer-account-button {
+    margin-left: var(--size-3);
+    margin-right: var(--size-3)
+  }
+
+}

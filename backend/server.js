@@ -6,6 +6,9 @@ const connectDB = require("./config/db");
 const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
 const jobRoutes = require("./routes/jobRoutes");
+const savedJobRoutes = require("./routes/savedJobRoutes");
+const applicationRoutes = require("./routes/applicationRoutes");
+const analyticsRoutes = require("./routes/analyticsRoutes");
 const app = express();
 
 // Middleware to handle cors connection(api connection)
@@ -26,7 +29,10 @@ app.use(express.json());
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
-app.use("/api/jobs", jobRoutes);
+app.use("/api/job", jobRoutes);
+app.use("/api/savedJob", savedJobRoutes);
+app.use("/api/application", applicationRoutes);
+app.use("/api/analytics", analyticsRoutes);
 
 // Serve upload folder
 app.use("/uploads", express.static(path.join(__dirname, "uploads"), {}));

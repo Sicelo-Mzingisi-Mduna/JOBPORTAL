@@ -13,7 +13,7 @@ exports.createJob = async (req, res) => {
     }
     const job = await Job.create({
       ...req.body,
-      company: req.user._id, // Foreign key(used to add columns with a table as its data value)
+      postedBy: req.user._id, // Foreign key(used to add columns with a table as its data value)
     });
     res.status(201).json(job);
   } catch (err) {
@@ -53,25 +53,27 @@ exports.getJobs = async (req, res) => {
 
     if (minSalary || maxSalary){
       query.$and = [];
-    }
 
-    if(minSalary){
+      if(minSalary){
       query.$and.push({salaryMax: {$gte: Number(minSalary)}});
+      }
+
+      if(maxSalary){
+        query.$and.push({salaryMin: {$lte: Number(maxSalary)}});
+      }
+
+      if(query.$and.length === 0){
+        delete query.$and;
+      }
     }
 
-    if(maxSalary){
-      query.$and.push({salaryMin: {$lte: Number(maxSalary)}});
-    }
-
-    if(query.$and.length === 0){
-      delete query.$and;
-    }
+    
 
     try {
       //Model my Internal relationship(data that needs to enter to enter my table)
       //step 3 ) Data Table Merge(increases x-axis(columns with a table as its value))
       const jobs = await Job.find(query).populate(
-        "company", // Foreign key(used to add columns with a table as its data)
+        "postedBy", // Foreign key(used to add columns with a table as its data)
         "name companyName companyLogo"
       );
 
@@ -98,7 +100,7 @@ exports.getJobs = async (req, res) => {
           //add columns with data values
           ...job.toObject(),
           isSaved: savedJobIds.includes(jobIdStr),
-          applicationStatus: appliedJobStatusMap[jobIdStr] || null,
+          applicationStatus: appliedJobStatusMap[jobIdStr] || "You have not Applied to this Job",
         };
       });
       res.json(jobsWithUserData);
@@ -181,7 +183,7 @@ exports.deleteJob = async (req, res) => {
         message: "Unauthorized",
       });
     }
-    await job.remove();
+    await Job.findByIdAndDelete(req.params.id);
     res.json({
       message: "Job deleted successfully",
     });

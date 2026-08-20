@@ -15,7 +15,7 @@ exports.register = async (req, res) => {
     const {name, email, password, avatar, role} = req.body;
 
     //Check if user exists
-    const userExists = await User.findOne({email});
+    const userExists = await User.findOne({email: email});
 
     if(userExists){
       return res.status(400).json({
@@ -64,7 +64,7 @@ exports.login = async (req, res) => {
 
     const {email, password} = req.body;
     //Check for user email
-    const user = await User.findOne({email});
+    const user = await User.findOne({email: email});
 
     if(user && (await bcrypt.compare(password, user.password))){
       res.json({
